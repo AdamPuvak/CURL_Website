@@ -12,11 +12,10 @@
 ## About The Project
 
 This web service allows students to fetch and manage their personal schedule and thesis topics from university information system through CURL requests and provide an API for further access.
-Key features of the project include:
 
-## Schedule Information
-### Fetch Schedule with CURL:
-A button is provided on the webpage that, upon clicking, uses a CURL request to retrieve the student’s personal schedule from the university information system.
+## Key Features
+### Schedule Information:
+**Fetch Schedule with CURL:** A button is provided on the website that, upon clicking, uses a CURL request to retrieve the student’s personal schedule from the university information system.
 This data is then stored in a database for further management.
 
 Another button is available to clear all the schedule data from the database.
@@ -30,27 +29,26 @@ Another button is available to clear all the schedule data from the database.
 
 **PUT:** Modify an existing schedule event (e.g., change subject name, time, or location).
 
-## Thesis Topics Information
-### Fetch Thesis Topics with CURL:
-Data is fetched from the university information system website for thesis topics across various departments.
+### Thesis Topics Information:
+**Fetch Thesis Topics with CURL:** Data is fetched from the university information system website for thesis topics across various departments.
 
 ### API for Available Thesis Topics:
 **GET:** Display available (unassigned) thesis topics for a selected department and study program.
 
-The API returns details such as the thesis title, supervisor name, department, program, specialization, and the abstract.
+API returns details such as the thesis title, supervisor name, department, program, specialization, and the abstract.
 
 ### Webpage Interaction:
-The webpage allows students to view available thesis topics for a selected department and study program.
-The list is sortable and filterable by supervisor and study program.
+Webpage allows students to view available thesis topics for a selected department and study program.
+List is sortable and filterable by supervisor and study program.
 
 Clicking on a thesis title will show its abstract.
 
 A search feature is included to filter topics based on keywords in the title or abstract.
 
-## Web Service Implementation
-The web service is built using REST API, following the principles of REST. It provides endpoints for accessing schedule data, adding or deleting schedule events, and viewing available thesis topics.
+### Web Service Implementation:
+Web service is built using REST API, following the principles of REST. It provides endpoints for accessing schedule data, adding or deleting schedule events, and viewing available thesis topics.
 
-Error Handling: Proper error handling is implemented, ensuring correct HTTP status codes (200, 400, etc.) are returned based on the outcome of the request.
+**Error Handling:** Proper error handling is implemented, ensuring correct HTTP status codes (200, 400, etc.) are returned based on the outcome of the request.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
